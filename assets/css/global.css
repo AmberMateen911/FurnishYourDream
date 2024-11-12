@@ -1,0 +1,59 @@
+.container{
+    max-width: 1660px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.flex-container{
+    display: flex;
+}
+
+.text-white{
+    color: white;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+.sans-serif{
+    font-family: sans-serif;
+}
+
+.serif{
+    font-family: serif;
+}
+
+.font-12{
+    font-size: 12px;
+}
+
+
+.font-14{
+    font-size: 14px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-18{
+    font-size: 18px;
+}
+.font-20{
+    font-size: 20px;
+}
+h1{
+    font-size: 90px;
+}
+
+h2{
+    font-size: 50px;
+}
+.bold{
+    font-weight: 800;
+
+}
+.itallic{
+    font-style: italic;
+}

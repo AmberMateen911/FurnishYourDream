@@ -1,0 +1,41 @@
+/************SCREEN WDTH 320 TO 430PX*****************/
+
+/*NAVIGATION BAR*/
+@media screen and (max-width: 430px){
+  #logo {
+    display: none;
+  }
+  ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 50px;
+  }
+header .divider{
+  position: unset;
+  background-color: rgba(201, 91, 23, 0.652);
+  height: 100%;
+}
+
+#cart{
+  position: relative;
+  z-index: -1;
+  top: -100px;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+  .hero-banner {
+    display: none;
+  }
+
+  .top-product-section {
+    display: none;
+  }
+}

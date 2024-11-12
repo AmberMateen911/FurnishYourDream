@@ -1,0 +1,69 @@
+header {
+    justify-content: center;
+}
+
+.divider{
+    position: absolute;
+    top: 35px;
+    align-items: center;
+}
+#logo{
+    width: 250px;
+}
+
+#logo img{
+    max-width: 100%;
+}
+
+
+nav {
+    justify-content: end;
+}
+
+ul{   
+    padding-left: 0;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+ #cart{
+    filter: saturate(4);
+    width: 50px;
+    padding: 0 30px;
+
+}
+
+#cart img{
+    max-width: 100%;
+}
+#cart:hover{
+    filter: saturate(5.9);
+  
+}
+
+.menu-icon{
+    display: none;
+}
+
+
+/* FOR HOVER EFFECT*/
+
+ul li a:hover {
+    color: rgb(243, 109, 9);
+}
+
+ul li .active{
+    color: rgb(243, 109, 9);
+}
+
+
